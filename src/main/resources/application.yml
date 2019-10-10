@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: servercloud-config-crc-dev
+---
+spring:
+  profiles: test
+  application:
+    name: servercloud-config-crc-test
+
